@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+    overflow:hidden;
+    position:relative;
+}
+body{
+    background-color:black;
+    margin:0;
+}
+ul{
+    list-style-type: none;
+   color:white;
+    display:flex;
+    margin:0;
+    height:80px;
+    background-color:black;
+}
+li{  
+  padding-top:25px;
+    font-size:21px;
+}
+.img{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.x{
+    margin-left: 100px;
+}
+span{
+    /*color:red;*/
+    font-size: 25px;
+}
+.xy{
+    margin-left:850px;
+}
+h1{
+    color:white;
+    font-size:80px;
+       position:absolute;
+    top:49%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+.content-container {
+  position: relative;
+}
+img{
+    display:block;
+    width:100%;
+    height:auto;
+}
+h4{
+    color:white;
+}
